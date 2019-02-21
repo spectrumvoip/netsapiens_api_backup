@@ -1,5 +1,5 @@
 # netsapiens_api_backup
-Backup NetSapien API to JSON files
+Backup NetSapiens API to JSON files
 
 This script loops through every domain pulling all the info for the following tables:
 
