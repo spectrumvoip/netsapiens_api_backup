@@ -8,6 +8,6 @@ $client_secret = 'my_secret';
 $username      = 'my_username';
 $password      = "my_password";
 
-$base_url = "https://core3-dal.mydomain.com/";
+$base_url = "https://netsapiens.mydomain.com/";
 
 ?>
