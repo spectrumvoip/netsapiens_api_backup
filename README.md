@@ -25,7 +25,8 @@ This script loops through every domain pulling all the info for the following ta
 It builds a subfolder for every domain, then a separate file for each table.
   
 It prefixes this file with the date to version the files since I run it once every night with the following shell script:
-  
+
+```
 #!/bin/sh
 
 # Pull todays backup
@@ -35,3 +36,4 @@ It prefixes this file with the date to version the files since I run it once eve
 /usr/bin/find /usr/local/SAN/api_backups/* -mtime +2 -exec rm -v {} \;
 
 exit;
+```
