@@ -30,7 +30,7 @@ It prefixes this file with the date to version the files since I run it once eve
 #!/bin/sh
 
 # Pull todays backup
-/usr/local/SAN/scripts/stratus_api_backup.php 1
+/usr/local/SAN/scripts/netsapiens_api_backup.php 1
 
 # Delete files older than 2 days.
 /usr/bin/find /usr/local/SAN/api_backups/* -mtime +2 -exec rm -v {} \;
