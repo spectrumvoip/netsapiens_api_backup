@@ -1,6 +1,8 @@
 # netsapiens_api_backup
 Backup NetSapiens API to JSON files
 
+Currently, stratus_api_backup.sh runs on Web6
+
 This script loops through every domain pulling all the info for the following tables:
 
   domain
